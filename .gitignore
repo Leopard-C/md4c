@@ -69,6 +69,7 @@ conf*.dir/
 /config.log
 /config.status
 /configure
+/include/
 .deps/
 .dirstamp
 Makefile
