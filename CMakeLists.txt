@@ -17,7 +17,8 @@ if(WIN32)
 else()
     # On Linux, MD4C is slowly being adding into some distros which prefer
     # shared lib.
-    option(BUILD_SHARED_LIBS "help string describing option" ON)
+    #option(BUILD_SHARED_LIBS "help string describing option" ON)
+    option(BUILD_SHARED_LIBS "help string describing option" OFF)
 endif()
 
 add_definitions(
